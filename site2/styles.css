@@ -1,0 +1,95 @@
+html {
+    font-family: "Open Sans";
+}
+
+*{
+    color: white;
+}
+
+
+
+body {
+    background-image: url('fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 { 
+    text-align: center;
+}
+div#cdd {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur(12px);
+    transition: 1s;
+
+}
+
+div#cdd:hover {
+    -webkit-box-shadow:0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+    -moz-box-shadow: 0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+    box-shadow: 0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+}
+
+.senha {
+    width: 100%;
+    color: rgb(0, 195, 255);
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+input {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    opacity: 0.5;
+
+}
+input:focus { 
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+}
+.btn:hover {
+    -webkit-box-shadow:0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+    -moz-box-shadow: 0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+    box-shadow: 0px 0px 116px 0px rgba(39, 138, 80, 0.9);
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+div#cdd1 {
+    padding: 10px;
+}

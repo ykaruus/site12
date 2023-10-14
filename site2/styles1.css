@@ -1,0 +1,122 @@
+html {
+    font-family: "Open Sans";
+    color: white;
+    user-select: none;
+}
+
+body {
+    background-image: url('fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.container {
+    height: 100vh;
+    padding: 10px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+
+span:hover {
+    color: rgba(39, 138, 80);
+}
+
+header
+{
+    opacity: 1;
+}
+
+i { 
+    cursor: pointer;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(12px);
+    left: -450px;
+    top: 20px;
+    transition: 1s;
+}
+
+.dividers ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.dividers ul li { 
+    cursor: pointer;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(244,244,244,0.4);
+    color: rgba(244,244,244,0.7);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.336);
+    font-size: 1rem;
+}
+
+main { 
+    flex: 1;
+}
+
+footer {
+    color: rgba(70, 68, 68, 0.507);
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+h1 {
+    font-size: 50pt;
+    text-align: center;
+    background-image: url('fundo4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
+.CloseBtn {
+    margin: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.info {
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+@keyframes Entrada {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes Saida {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
